@@ -1,6 +1,9 @@
 /**
  *  Create by Naitsirc on 09/05/18
- *
+ * mensaje de aceptacion cod: 200
+ * mensaje de error cond: 500
+ * 404 clasico not found
+ * 403 acceso denegado
  */
 
 'use strict';

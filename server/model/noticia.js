@@ -5,7 +5,7 @@
 
 'use strict';
 
-const mongose= require('mongose');
+const mongose= require('mongoose');
 const Schema= mongose.Schema;
 
 const noticiasSchema = new Schema({

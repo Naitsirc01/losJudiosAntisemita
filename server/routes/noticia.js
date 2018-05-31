@@ -5,6 +5,7 @@
 
 'use strict';
 const NoticiaController =require('../controller/noticia');
+const mdAuth=require('../midleware/midleware');// Esta cosa sirve para que sea mas seguro
 
 const express=require('express');
 const api=express.Router();
