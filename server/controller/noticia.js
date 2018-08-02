@@ -69,7 +69,10 @@ function updateNoticia(req, res) {
                     desc: 'Noticia no encontrada'
                 })
             } else {
+                //Modificar noticia
+                noticia_encontrada.titulo = body.titulo;
                 noticia_encontrada.cuerpo = body.cuerpo;
+                //Guardar noticia modificada
                 noticia_encontrada.save((err, noticia_guardada) => {
                     if (err) {
                         res.status(400).send({
